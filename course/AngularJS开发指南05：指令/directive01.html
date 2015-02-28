@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="../../angular-1.0.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div ng-controller="Ctrl1">
+      Hello <input ng-model='name'> <hr/>
+      &ltspan ng:bind="name"&gt <span ng:bind="name"></span> <br/>
+      &ltspan ng_bind="name"&gt <span ng_bind="name"></span> <br/>
+      &ltspan ng-bind="name"&gt <span ng-bind="name"></span> <br/>
+      &ltspan data-ng-bind="name"&gt <span data-ng-bind="name"></span> <br/>
+      &ltspan x-ng-bind="name"&gt <span x-ng-bind="name"></span> <br/>
+    </div>
+  </body>
+</html>
